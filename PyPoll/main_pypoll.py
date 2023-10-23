@@ -2,6 +2,8 @@
 import pandas as pd 
 from pathlib import Path
 import sys
+
+#define standard sys output (Terminal) 
 stdout_default = sys.stdout 
 
 #define input and output files for reading/writing
