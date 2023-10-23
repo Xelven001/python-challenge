@@ -2,6 +2,8 @@
 import pandas as pd 
 from pathlib import Path
 import sys
+
+#define standard sys output (Terminal) 
 stdout_default = sys.stdout 
 
 #define input and output files for reading/writing
@@ -49,7 +51,7 @@ with open(file_output, "w") as file:
 sys.stdout = stdout_default
 
 #reprint results to terminal 
-print("Financial Analysis")
+print("\nFinancial Analysis")
 print("\n---------------------------")
 print(f'Total Months: {total_months}')
 print(f'Total: ${total}')
